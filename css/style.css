@@ -517,19 +517,21 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 }
 /* Subscribe Form */
 
+.subscribe-form-container{
+    margin-left: 80px;
+}
 .subscribe-form-text{
 color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-left: 80px;
     margin-bottom: 16px;
 }
 
 .form{
     display: flex;
-    margin-left: 80px;
+    
     gap:24px;
 }
 
@@ -673,7 +675,6 @@ color:#8E8F99;
     line-height: 1.17;
     letter-spacing: 0.04em;
     margin-bottom: 4px;
-    margin-top: 8px;
 }
 
 
@@ -750,8 +751,7 @@ border-radius: 4px;
 }
 
 .review-form-checkbox-wrapper{
-  
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .review-form-checkbox-label{
